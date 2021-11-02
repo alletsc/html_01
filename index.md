@@ -2,3 +2,4 @@
 
 You can use the [editor on GitHub](https://github.com/alletsc/html_01/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
+https://alletsc.github.io/html_01/
