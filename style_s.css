@@ -1,0 +1,243 @@
+@charset "pt-br";
+
+/* Google fonts & font family
+==================================================*/
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700);
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format("truetype");
+    font-weight: normal;
+}
+
+:root {
+    --cor0: #393939;
+    --cor1: #ffbf00;
+    --cor2: #063d1e;
+    --cor3: #1a5c37;
+    --cor4: #2fa866;
+    --cor5: #3ddc84;
+    --cor6: #c5ebd6;
+    --cor7: #BF8F00;
+    --cor8: #806000;
+
+    /* typography*/
+
+    --fonte_padrao: 'Poppins', 'Open Sans', Arial, Verdana, sans-serif;
+    --fonte_destaque: 'Press Start 2P';
+    --fonte_decor: 'android';
+    --fonte_pop: 'Poppins';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+
+    font-family: var(--fonte_padrao);
+    font-style: normal;
+}
+
+main p {
+    margin: 15px 0px 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2.2em;
+}
+
+main strong {
+    color: #00350d;
+    font-weight: bold;
+    
+}
+
+main a {
+    text-decoration: none;
+    color: #022340;
+    background-color: #3ddc8550;
+    padding: 1px 5px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color:var(--cor5);
+}
+
+header {
+    font-family: var(--fonte_pop);
+    font-style: normal;
+    background-image: linear-gradient(to bottom, #3F0359, #69168C, #3C3473, #022340, #025373);
+    color: white;
+    min-height: 150px;
+    text-align: center;
+
+}
+
+header>h1 {
+
+    font-style: normal;
+   
+    font-family: var(--fonte_destaque);
+    font-size: 2.3em;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.664);
+
+}
+
+header > p {
+    color: white;
+    font-size: 1.1em;
+    max-width: 500px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+nav {
+    background-color: #025373;
+    font-family: var(--fonte_pop);
+    font-style: normal;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+    padding: 10px;
+    text-shadow: 0px 7px 9px rgba(0, 0, 0, 0.363);
+}
+
+nav > a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-family: var(--fonte_pop);
+    font-size: 1em;
+    font-weight: bold;
+
+    font-size: 1.2;
+}
+
+nav a:hover{
+    background-color: #4c8da762;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+
+}
+
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.246);
+
+}
+
+
+main h1 {
+    font-weight: normal;
+    font-family: var(--fonte_decor), Times, serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #3F0359;
+
+}
+
+main h2 {
+    font-weight: normal;
+    font-family: var(--fonte_decor);
+    font-style: normal;
+    font-size: 1.5em;
+    color: var(--cor2);
+    text-indent: 8px;
+
+
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pq {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+
+
+iframe{
+
+        width: 100%;
+        padding-bottom: 50px;
+
+        background-color: #025373a8;
+        margin: 0px -20px 30px -20px;
+        padding: 20px;
+        
+        position: relative;
+}
+
+p {
+    color: black;
+}
+
+h3 {
+    font-family: var(--fonte_pop);
+    font-weight: normal;
+    font-size: 1.2em;
+    font-style: normal;
+    color: #393939;
+
+}
+
+footer {
+
+    font-style: italic;
+    background-color: var(--cor8);
+    color: white;
+    padding: 5px;
+}
+aside {
+    background-color: #0253737a;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+aside h3{
+    background-color: #025373;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+aside > ul {
+    list-style-type: "\00A0\1F916\00A0";
+    list-style-position: inside;
+    columns: 2;
+    
+}
+footer p {
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor1);
+    font-family: var(--fonte_pop);
+}
