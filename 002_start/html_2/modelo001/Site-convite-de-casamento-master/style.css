@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+  background-color: #c6a8a6;
+  height: 100%;
+  margin: 0;
+}
+h1,h2{
+  font-family: "Raleway", sans-serif
+}
+
+p {
+  line-height: 2
+}
+
+#inicio {
+    background-image: url(fundo1.jpg)
+    }

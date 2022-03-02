@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+  background-color: #c6a8a6;
+  height: 100%;
+  margin: 0;
+}
+h1,h2{
+  font-family: "Raleway", sans-serif
+}
+
+p {
+  line-height: 2
+}
+
+.bgimg, .bgimg2 {
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+      }
+
+.bgimg {background-image: url("https://cdn.pixabay.com/photo/2017/08/06/20/11/wedding-2595862_960_720.jpg")}
+.bgimg2 {background-image: url("https://cdn.pixabay.com/photo/2018/01/09/22/51/roses-3072698_960_720.jpg")}
